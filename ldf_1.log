@@ -1,0 +1,15 @@
+17:52:27.163 INFO : LoadDirector Started...
+17:52:27.163 INFO : Current working directory /home/sapan/workspace/work/Load-Forge
+17:52:27.163 INFO : executable directory /home/sapan/workspace/work/Load-Forge/build/classes/java/main/
+17:52:27.167 INFO : loading the file /home/sapan/workspace/work/Load-Forge/build/install/ldf/bin/Task1.java
+17:52:27.167 INFO : file /home/sapan/workspace/work/Load-Forge/build/install/ldf/bin/Task1.java
+17:52:27.176 INFO : Loading file Task1
+17:52:27.320 INFO : Scanning Path for library /home/sapan/workspace/work/Load-Forge/extlib
+17:52:27.320 INFO : Scanning Path for library /home/sapan/workspace/work/Load-Forge/build/classes/java/main/extlib
+17:52:27.320 INFO : Loading all the jars from /home/sapan/workspace/work/Load-Forge/build/classes/java/main/extlib including those in subdirectories
+17:52:27.612 INFO : registering task digiassure.Task1
+17:52:27.614 INFO : threadCount 1
+17:52:27.614 INFO : threadSpawnDelay 100
+17:52:27.614 INFO : Starting thread 1
+17:52:27.815 INFO : starting task digiassure.Task1
+17:52:27.815 INFO : server started.... SERVER MODE is still in alpha stage

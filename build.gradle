@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+    id 'application'
+
+}
+
+group = 'digiassure'
+version = ''
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+
+application {
+    mainClassName = 'digiassure.loadforge.LoadForge'
+    applicationName = 'ldf'
+}
+
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+
+    // https://mvnrepository.com/artifact/net.openhft/implementationr
+    implementation group: 'net.openhft', name: 'compiler', version: '2.4.0'
+
+    implementation "com.sparkjava:spark-core:2.9.2"
+
+    //okhttp
+    //implementation 'com.squareup.okhttp3:okhttp:3.14.4'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    implementation group: 'commons-io', name: 'commons-io', version: '2.6'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-csv
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.4'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation group: 'org.json', name: 'json', version: '20180813'
+
+    // https://mvnrepository.com/artifact/commons-cli/commons-cli
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.4'
+
+    implementation 'com.github.javaparser:javaparser-core:3.15.7'
+    implementation 'com.github.javaparser:javaparser-core-serialization:3.15.7'
+    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.15.7'
+    implementation "com.sparkjava:spark-core:2.8.0" // add to build.gradle (for Java users)
+    // https://mvnrepository.com/artifact/org.tinylog/tinylog-impl
+    implementation group: 'org.tinylog', name: 'tinylog-impl', version: '2.0.0'
+
+    // https://mvnrepository.com/artifact/org.tinylog/tinylog-api
+    implementation group: 'org.tinylog', name: 'tinylog-api', version: '2.0.0'
+
+    implementation 'com.google.code.gson:gson:2.8.6'
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
