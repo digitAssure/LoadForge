@@ -1,5 +1,5 @@
 # Load Forge - Code the load
-Load Director is open source hackable load testing tool inspired from jmeter, gatling, grinder to write complex load scenerio.
+LoadForge is powerful load testing tool that empowers users to generate high throughput load seamlessly using Java code, you can effortlessly create custom load testing scenarios tailored to your specific requirements. Whether you need to simulate thousands of concurrent users or stress test your application under extreme condition.
 
 ## Install
 ##### requirements
